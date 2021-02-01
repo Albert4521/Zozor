@@ -1,0 +1,33 @@
+/*Définition des polices personnalisées*/
+@font-face{
+    font-family: 'BallparkWeiner';
+    src: url('Styles/polices/ballpark.eot'),
+    url('Styles/polices/ballpark.svg'),
+    url('Styles/polices/ballpark.ttf'),
+    url('Styles/polices/ballpark.woff');
+}
+/*Définition des éléments principaux*/
+body{
+    background-image: url('Styles/images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+#BlocPage{
+    min-width: 900px;
+    max-width: 1200px ;
+    margin: auto;
+}
+header{
+    background-image: url('Zozor/Styles/images/separateur.png') repeat-x bottom;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
